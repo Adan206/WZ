@@ -2,10 +2,10 @@
 
 /**
  * @ngdoc function
- * @name angularAppApp.controller:MainCtrl
+ * @name WeatherZone.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the angularAppApp
+ * Controller of the WeatherZone
  */
 
   angular.module('WeatherZone')
