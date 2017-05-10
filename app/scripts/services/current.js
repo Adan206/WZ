@@ -14,10 +14,10 @@
 
      // Public API here
      return $resource('http://api.openweathermap.org/data/2.5/find?q=:query&type=like&mode=json&APPID=c6652cd966bc34851add11456f4da83d', {}, {
-      find: {
+      query: {
         method: 'GET',
         params: {
-          query: 'seattle'
+          location: 'seattle,us'
         },
         isArray: false
       }
